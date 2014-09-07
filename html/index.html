@@ -16,6 +16,26 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script type="text/javascript">
+		/*
+			$( document ).ready(function() {
+				console.log( "ready! 1" );
+				$("#test2").fadeOut(1);
+				setTimeout(function(){
+					console.log( "ready! 2" );
+					$("#test1").fadeOut(3000);
+					setTimeout(function(){
+						console.log( "ready! 3" );
+						$("#test2").fadeIn(3000);
+					}, 3000);
+				}, 3000);
+				
+				
+				
+    			
+			});
+			*/
+		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -42,7 +62,7 @@
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="left-sidebar.html">Testimonials</a></li>
+							<!--<li><a href="left-sidebar.html">Testimonials</a></li>-->
 							<li><a href="info.html">Student Information</a></li>							
 							<li><a href="#pricing-section-link">Price Info</a></li>
 							<li><a href="#book-now-section">Contact Us</a></li>
@@ -97,14 +117,22 @@
 
 		<!-- Gigantic Heading -->
 			<section class="wrapper style2">
-				<div class="container">
+				<div id="test1" class="container">
 					<header class="major">
 						<a href="">
 							<h2>"I passed my driving test first time and with only one fault, thanks to the skillful instructor Mr. Paul White. I would highly recommend Paul if you intend passing first time."</h2>
-							<p>Liam Kinane - past pupil who passed his test on the first attempt. See more on the testimonials page...</p>
+							<p>Liam Kinane - past pupil who passed his test on the first attempt.</p>
 						</a>						
 					</header>
 				</div>
+				<div id="test2" class="container" style="display: none">
+					<header class="major">
+						<a href="">
+							<h2>"I would definitely recommend Paul White as a driving instructor. I passed my driving test on my first attempt. Thanks so much for your support and patience."</h2>
+							<p>Liz O'Brien - past pupil who passed his test on the first attempt.</p>
+						</a>						
+					</header>
+				</div>				
 			</section>
 
 		<!-- Posts -->
@@ -123,7 +151,7 @@
 								<div class="inner">
 									<h3>Essential Driver Training (EDT) Lessons</h3>
 									<p>All  
-									<a target="_blank" href="http://www.rsa.ie/en/RSA/Learner-Drivers/Driver-Training/Car-Training-EDT/">Essential Driver Training</a> lessons cost €25 per hour. This program must be completed before a practical test can be undertaken.</p>
+									<a target="_blank" href="http://www.rsa.ie/en/RSA/Learner-Drivers/Driver-Training/Car-Training-EDT/">Essential Driver Training</a> lessons cost €25 per hour. <i>Note: This programme of 12 lessons must be completed before a practical test can be undertaken.</i></p>
 								</div>
 							</div>
 						</section>
@@ -134,7 +162,7 @@
 								</div>
 								<div class="inner">
 									<h3>Non EDT Lessons</h3>
-									<p>Price is for the first five lessons after which it reduces to €25 per hour. This price also applies where lessons are given for a car with trailer (BE License).</p>
+									<p>Price is for the first five lessons after which it reduces to €25 per hour. This price also applies where lessons are given for a vehicle with trailer or horsebox (BE Licence).</p>
 								</div>
 							</div>
 						</section>
@@ -143,12 +171,12 @@
 						<section class="6u">
 							<div class="box post">
 								<div class="left" style="float: left; margin-left: 12%; margin-top: 5%">
-									<i class="icon major"><h3>€55<br />per hour</h3></i>
+									<i class="icon major"><h2 style="margin-top: 18%">€55</h2></i>
 								</div>
 
 								<div class="inner">
-									<h3>Driving Test Car Rental</h3>
-									<p>This is the cost you must pay if you wish to use my car for the driving test.</p>
+									<h3>Car Rental for Driving Test</h3>
+									<p>This is the amount I charge for the use of my car for your driving test.</p>
 								</div>
 							</div>
 						</section>
